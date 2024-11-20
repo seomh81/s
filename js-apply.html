@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>브라우저 탭에 보이는 제목</title>
+    </head>
+    <body>
+        <div id="div-1" onclick="alert('div-1 태그임')">div-1태그</div>
+        <input
+            id="button-1"
+            type="button"
+            value="button-1 버튼"
+            onclick="alert('button-1 버튼임')"
+        />
+        <div id="div-2">div-2태그</div>
+        <input
+            id="button-2"
+            type="button"
+            value="button-2 버튼"
+        />
+
+        
+    </body>
+
+    <script>
+        document.getElementById('div-2').onclick = () => {
+            alert('div-2 태그임')
+        }
+
+        document.getElementById('button-2').onclick = () => {
+            alert('button-2 태그임')
+        }
+    </script>
+
+</html>

@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>브라우저 탭에 보이는 제목</title>
+    </head>
+    <body>
+        
+    </body>
+
+    <script>
+        let orOperator_1 = true || true
+        let orOperator_2 = true || false
+        let orOperator_3 = false || true
+        let orOperator_4 = false || false
+
+        console.log(
+            orOperator_1,
+            orOperator_2,
+            orOperator_3,
+            orOperator_4
+        )
+
+        let andOperator_1 = true && true
+        let andOperator_2 = true && false
+        let andOperator_3 = false && true
+        let andOperator_4 = false && false
+
+        console.log(
+            andOperator_1,
+            andOperator_2,
+            andOperator_3,
+            andOperator_4
+        )
+
+        if(orOperator_4 || andOperator_1) {
+            console.log('실행되나?')
+        }
+
+        let x = 6
+        let y = 7
+
+        if(x > y) {
+            console.log(x + '가 ' + y + '보다 크다.')
+        } else if(x <= y) {
+            console.log('y가 x보다 크거나 같다.')
+        } else {
+            concole.log('거짓이다.')
+        }
+
+    </script>
+</html>

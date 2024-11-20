@@ -1,0 +1,23 @@
+
+<style>
+
+div {
+    color: white;
+}
+
+.div-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.div-2 {
+    font-size: 12px;
+}
+
+#div-2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+</style>
